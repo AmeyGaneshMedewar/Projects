@@ -1,18 +1,155 @@
 body {
     margin: 20px;
-    background: linear-gradient(to bottom, 
-  #fc5c7d,
-  #6a82fb);
+    background: linear-gradient(to bottom, #fc5c7d,#6a82fb);
+}
+
+
+
+  #header {
+    width: 100%;
+    
   }
-    table{
+
+  .container img {
+    width:auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+
+  }
+  
+  .container {
+    padding-top: 0%;
+  }
+        
+  .header-text {
+    font-size: 45px;
+    color:rgb(56, 1, 1);
+  }
+
+  /*----------section 2-------------*/
+
+  #about {
+    width: 100%;
+    
+  }
+
+  .abouttt h2 {
+    text-shadow: #020a32;
+    font-size: 33px;
+  }
+
+  .abouttt p {
+    font-size: 27px;
+
+  }
+
+  .subsection h3 {
+ 
+    font-size: 33px;
+  }
+
+  .subsection p {
+    font-size: 27px;
+  }
+
+/*--------------section 3-------------*/
+
+.tablee{
+  width:100%;
       border:2px solid ;
       padding:10px 20px 10px 20px;
       text-align:center;
-      font-size:17px;
+      font-size:27px;
+      line-height:40px;
       background:linear-gradient(to bottom ,#fc5c7d, #3f5efb);
       
       
       
+}
+.tablee p{
+  border-bottom: black;
+  border-width: 2px;
+}
+
+
+
+.tablee ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+   
+  .tablee ul a{
+    width: 100%;
+    /* border:2px solid;
+    border-radius:0.2px;
+    border-color: #020a32; */
+    background-color:black;
+
+    color: #fff;
+    text-decoration: none;
+    position:relative;
   }
+
+  nav tr::after {
+    content: "";
+  width: 0;
+  height: 3px;
+  background: rgb(148, 11, 134);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  z-index: 0;
+  transition: 0.5s;
+
+  }
+  nav tr:hover::after{
+    z-index: 30px !important;
+    /* position: relative; */
+  }
+
+
+/*------------faculty list ------------------*/
+
+.list ul ul{
+  flex: auto;
   
-        
+}
+#list ul {
+  list-style: none;
+}
+
+#list ul li {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  background-color: #fff;
+  gap: 3px;
+}
+
+.list-img {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list-imgae {
+  width: 100%;
+}
+
+.list-data {
+  width: 50%
+}
+
+
+
