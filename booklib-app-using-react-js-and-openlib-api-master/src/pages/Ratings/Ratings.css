@@ -1,0 +1,38 @@
+.ratings-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d0d2d3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ratings-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2d2c2c;
+  }
+  
+  .ratings-form-container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .ratings-form-container label {
+    display: block;
+    font-weight: bold;
+    color: #272626;
+  }
+  
+  .ratings-form-container input[type='text'],
+  .ratings-form-container input[type='number'],
+  .ratings-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .ratings-form-container textarea {
+    min-height: 100px;
+  }
